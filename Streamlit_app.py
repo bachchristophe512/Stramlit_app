@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly 
+import plotly.express as px
 # Titre de l'application
 st.title("Dashboard des Accidents de Voiture")
 
@@ -34,7 +35,7 @@ selected_year = st.selectbox('Sélectionner l\'année:', df['Year'].unique())
 # Filtrer les données en fonction de l'année sélectionnée
 filtered_df = df[df['Year'] == selected_year]
 
-import plotly.express as px
+
 
 # Graphique de tendance mensuelle
 st.subheader('Nombre mensuel d\'accidents')
