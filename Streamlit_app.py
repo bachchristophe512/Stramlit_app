@@ -66,6 +66,6 @@ anomalies = df[df['Accidents'] > daily_mean + 3 * daily_std]
 st.subheader('Jours avec un nombre anormalement élevé d\'accidents')
 st.write(anomalies)
 
-sns.scatterplot(data=df,x="sepal_length",y="petal_length", hue = "Weather_Condition", size="petal_length", markers="+")
+#sns.scatterplot(data=df,x="sepal_length",y="petal_length", hue = "Weather_Condition", size="petal_length", markers="+")
 
 
