@@ -1,10 +1,10 @@
 import streamlit as st
-
-# Titre de l'application
-st.title("Dashboard des Accidents de Voiture")
 import pandas as pd
 import numpy as np
-import plotly as pt
+import plotly 
+# Titre de l'application
+st.title("Dashboard des Accidents de Voiture")
+
 
 # Simuler des données
 np.random.seed(0)
