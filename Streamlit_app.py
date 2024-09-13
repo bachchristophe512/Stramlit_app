@@ -4,7 +4,8 @@ import streamlit as st
 st.title("Dashboard des Accidents de Voiture")
 import pandas as pd
 import numpy as np
-import plotly
+import plotly as pt
+
 # Simuler des données
 np.random.seed(0)
 dates = pd.date_range('2015-01-01', periods=2000, freq='D')
